@@ -1,0 +1,19 @@
+SweetTooltip is a collection of simply awesome tooltip crafted using jQuery & CSS3, yes it's imageless.
+
+Usage : 
+Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by following code :
+<a href="#" 
+	class="sweet-tooltip" 
+	data-style-tooltip="tooltip-style-name" 
+	data-text-tooltip="Tooltip text">
+Your link
+</a>
+
+There are seven tooltip style available :
+1. Sweet Strong, tooltip style name : tooltip-sweet-strong
+2. Mini Slick, tooltip style name : tooltip-mini-slick
+3. Big Grey, tooltip style name : tooltip-big-grey
+4. Nightly, tooltip style name : tooltip-nightly
+5. Shiny Red,  tooltip style name : tooltip-shiny-red
+6. Soft Blue,  tooltip style name : tooltip-soft-blue
+7. Big Yellow,  tooltip style name : tooltip-big-yellow
