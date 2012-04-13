@@ -21,8 +21,8 @@ $(document).ready(function() {
 				 .after('<div class="'+tooltipClassName+'">'+tooltipText+'</div>');
 
 		
-		tooltipPosTop 	= tooltip.offset().top - $(tooltipClass).outerHeight() - 10;
-		tooltipPosLeft = tooltip.offset().left;
+		tooltipPosTop 	= tooltip.position().top - $(tooltipClass).outerHeight() - 10;
+		tooltipPosLeft = tooltip.position().left;
 		tooltipPosLeft = tooltipPosLeft - (($(tooltipClass).outerWidth()/2) - tooltip.outerWidth()/2);
 		
 		$(tooltipClass).css({ 'left': tooltipPosLeft, 'top': tooltipPosTop })
