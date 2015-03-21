@@ -36,10 +36,23 @@
 <h2>
 <a id="basic-usage" class="anchor" href="#basic-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Basic Usage</h2>
 
-<p>Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by following code :
-    <a href="#">
+<p>Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css : </p>
+{% highlight html %}
+    &lt;script src="//code.jquery.com/jquery-latest.min.js"&gt;&lt;/script&gt;
+    &lt;script src="sweet-tooltip.js"&gt;&lt;/script&gt;
+    &lt;link rel="stylesheet" href="sweet-tooltip.css"&gt;
+{% endhighlight %}
+<p>Then call tooltip by following code :</p>
+<pre>
+  <code>
+    &lt;a href="#" 
+        class="sweet-tooltip" 
+        data-style-tooltip="tooltip-style-name" 
+        data-text-tooltip="Tooltip text"&gt;
         Your link
-    </a></p>
+    &lt;/a&gt;
+  </code>
+</pre>
 
 <h2>
 <a id="style-available" class="anchor" href="#style-available" aria-hidden="true"><span class="octicon octicon-link"></span></a>Style Available</h2>
