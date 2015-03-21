@@ -5,6 +5,7 @@ A collection of simply awesome tooltip crafted using jQuery & CSS3, yes it's ima
 ## Basic Usage 
 
 Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by following code :
+<pre>
 <code>	
 	<a href="#" 
 		class="sweet-tooltip" 
@@ -13,6 +14,7 @@ Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by 
 		Your link
 	</a>
 </code>
+</pre>
 
 ## Style Available
 
