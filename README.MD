@@ -5,12 +5,14 @@ A collection of simply awesome tooltip crafted using jQuery & CSS3, yes it's ima
 ## Basic Usage 
 
 Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by following code :
+<code>	
 	<a href="#" 
 		class="sweet-tooltip" 
 		data-style-tooltip="tooltip-style-name" 
 		data-text-tooltip="Tooltip text">
 		Your link
 	</a>
+</code>
 
 ## Style Available
 
