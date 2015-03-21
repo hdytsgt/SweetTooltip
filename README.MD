@@ -7,12 +7,12 @@ A collection of simply awesome tooltip crafted using jQuery & CSS3, yes it's ima
 Include jQuery.js, sweet-tooltip.js and sweet-tooltip.css, then call tooltip by following code :
 <pre>
 <code>	
-	<a href="#" 
+	&lt;a href="#" 
 		class="sweet-tooltip" 
 		data-style-tooltip="tooltip-style-name" 
-		data-text-tooltip="Tooltip text">
+		data-text-tooltip="Tooltip text"&gt;
 		Your link
-	</a>
+	&lt;/a&gt;
 </code>
 </pre>
 
